@@ -52,17 +52,64 @@ body{
 #input-field{
     width: 100%;
     max-width: 500px;
-    height: 200px;
+    height: 220px;
     background:#403d84;
     border: 0;
     outline: 0;
     padding: 10px;
     color: #ebfffc;
     font-size: 1.3rem;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 10px;
 
 }
 #input-field::placeholder{
     color: #ebfffc;
+}
+.select-container{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+#btn{
+    display: flex;
+    align-items: center;
+    background: #ff2963;
+    padding: 10px 15px;
+    color: #ebfffc;
+    column-gap: 7px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: 0;
+    transition: all 0.3s;
+}
+#btn:hover{
+    background: #019f55;
+    border: 1px solid #019f55;
+}
+.btn-img{
+    width: 20px;
+}
+#select{
+    background: #403d84;
+    flex: 1;
+    padding:15px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    color: #ebfffc;
+    appearance: none;
+    background-image: url(/images/dropdown.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position-x: calc(100% - 20px);
+    background-position-y: 20px;
+    left: 0;
+    cursor: pointer;
+
 }
